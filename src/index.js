@@ -1,14 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
+import { Helmet } from 'react-helmet';
 import './index.css';
 import App from './App/App';
 import reportWebVitals from './reportWebVitals';
+import logo from './assets/CrownLogoPlain.png';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <App />
+    <div>
+      <Helmet>
+        <link
+          rel="stylesheet"
+          href="https://use.typekit.net/hxg1yhc.css"
+        />
+        <title>The Crown</title>
+      </Helmet>
+      <App />
+    </div>
   </BrowserRouter>
 );
 

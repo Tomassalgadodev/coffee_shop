@@ -7,23 +7,25 @@ import igIcon from '../assets/ig-black.png';
 
 const Header = () => {
     return (
-        <div>
-            <div className="sub-heading-container">
-                <span>GOOD DRINK. GOOD FOOD. GOOD PEOPLE.</span>
-            </div>
-            <img className="header-img" src={headerImage} />
-            <div className="heading-buttons-container">
-                <div className="call-email-button-container">
-                    <button>CALL</button>
-                    <button>EMAIL</button>
+        <header>
+            <div className="content-wrapper">
+                <div className="sub-heading-container">
+                    <span className="sub-heading">GOOD DRINK. GOOD FOOD. GOOD PEOPLE.</span>
                 </div>
-                <div className="social-button-container">
-                    <img src={facebookIcon} />
-                    <img src={emailIcon} />
-                    <img src={igIcon} />
+                <img className="header-img" src={headerImage} />
+                <div className="heading-buttons-container">
+                    <div className="call-email-button-container">
+                        <button className="class-button">CALL</button>
+                        <button className="email-button">EMAIL</button>
+                    </div>
+                    <div className="social-button-container">
+                        <img className="facebook-icon" src={facebookIcon} />
+                        <img className="email-icon" src={emailIcon} />
+                        <img className="ig-icon" src={igIcon} />
+                    </div>
                 </div>
             </div>
-        </div>
+        </header>
     )
 }
 
