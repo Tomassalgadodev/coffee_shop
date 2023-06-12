@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding: 25px 115px 0 115px;
+    width: 1250px;
+}
+
+.subheading-container {
+    width: 275px;
+}
+
+.sub-heading {
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.header-img {
+    height: 180px;
+}
+
+.heading-buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+}
+
+.call-email-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 100%;
+}
+
+
+.call-email-button-container:hover button {
+    color: rgba(0, 0, 0, .5);
+    transition: .3s;
+}
+
+.call-email-button-container button {
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.call-email-button-container button:hover {
+    color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+.social-button-container {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 100%;
+    position: relative;
+}
+
+.social-button-container:hover img {
+    opacity: .5;
+    transition: .3s;
+}
+
+.social-button-container img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+.facebook-icon,
+.ig-icon {
+    height: 23px;
+    position: absolute;
+}
+
+.facebook-icon {
+    left: 15px;
+}
+
+.ig-icon {
+    right: 10px;
+}
+
+.email-icon {
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
