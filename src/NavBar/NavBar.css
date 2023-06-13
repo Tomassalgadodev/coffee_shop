@@ -1,0 +1,51 @@
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-bar {
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 120px;
+    padding: 0 120px 0 120px;
+}
+
+.nav-bar-button {
+    padding: 20px 30px 20px 30px;
+    border: solid black 2px;
+    background: none;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.nav-bar-button:hover {
+    background-color: black;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.down-arrow {
+    position: absolute;
+    height: 30px;
+    bottom: 40px;
+    transition: .3s;
+}
+
+.down-arrow:hover {
+    bottom: 35px;
+    cursor: pointer;
+}
+
+.nav-bar-tagline {
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
