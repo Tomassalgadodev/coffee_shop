@@ -13,7 +13,7 @@ const NavBar = () => {
                 <button className="nav-bar-button">ONLINE MENU</button>
             </div>
             <img src={downArrow} className="down-arrow"/>
-            <span className="nav-bar-tagline">CELEBRATE- IT'S PATIO SEASON</span>
+            <span className="nav-bar-tagline">CELEBRATE- IT'S PATIO SEASON!</span>
         </div>
     )
 }
