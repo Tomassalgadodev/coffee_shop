@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import { Route } from 'react-router-dom/cjs/react-router-dom.min';
+
 import Header from '../Header/Header';
 import NavBar from '../NavBar/NavBar';
 import PhotoCarousel from '../PhotoCarousel/PhotoCarousel';
-import { Route } from 'react-router-dom/cjs/react-router-dom.min';
-
+import InfoBody from '../InfoBody/InfoBody';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Header />
             <NavBar />
             <PhotoCarousel />
+            <InfoBody />
           </>
         )
       }}>
