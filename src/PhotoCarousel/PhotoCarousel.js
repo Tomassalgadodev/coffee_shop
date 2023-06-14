@@ -30,8 +30,18 @@ const PhotoCarousel = () => {
                     </div>
                 </div>
                 <div className="selectors-container">
-                    <img style={{ opacity: currentPhoto === carouselImage1 ? '.5' : '1' }} className="selector-image" src={carouselImage1}/>
-                    <img style={{ opacity: currentPhoto === carouselImage2 ? '.5' : '1' }} className="selector-image" src={carouselImage2}/>
+                    <img 
+                        style={{ opacity: currentPhoto === carouselImage2 ? '.5' : '1' }} 
+                        className="selector-image" 
+                        src={carouselImage1}
+                        onClick={() => setCurrentPhoto(carouselImage1)}
+                    />
+                    <img 
+                        style={{ opacity: currentPhoto === carouselImage1 ? '.5' : '1' }} 
+                        className="selector-image" 
+                        src={carouselImage2}
+                        onClick={() => setCurrentPhoto(carouselImage2)}    
+                    />
                 </div>
             </div>
         </div>

@@ -59,3 +59,7 @@
 .selector-image {
     height: 100%;
 }
+
+.selector-image:hover {
+    cursor: pointer;
+}
