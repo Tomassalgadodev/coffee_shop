@@ -1,0 +1,38 @@
+.location-container {
+    width: 100wv;
+}
+
+.location-details {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+    margin-top: 80px;
+}
+
+.location-section {
+    align-items: start;
+}
+
+.location-description {
+    width: 60%;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.location-description p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.location-description a {
+    text-decoration: underline;
+}
+
+.location-description a:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}

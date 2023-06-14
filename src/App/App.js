@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 import NavBar from '../NavBar/NavBar';
 import PhotoCarousel from '../PhotoCarousel/PhotoCarousel';
 import InfoBody from '../InfoBody/InfoBody';
+import Location from '../Location/Location';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
             <NavBar />
             <PhotoCarousel />
             <InfoBody />
+            <Location />
           </>
         )
       }}>
