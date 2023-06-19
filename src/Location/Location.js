@@ -1,6 +1,8 @@
 import React from "react";
 import './Location.css';
 
+import Map from "../Map/Map";
+
 const Location = () => {
     return (
         <div className="location-container">
@@ -15,6 +17,7 @@ const Location = () => {
                     <a>Get Directions</a>
                 </div>
             </div>
+            <Map />
         </div>
     )
 }
