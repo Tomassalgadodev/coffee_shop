@@ -9,6 +9,9 @@ import InfoBody from '../InfoBody/InfoBody';
 import Location from '../Location/Location';
 
 const App = () => {
+
+  console.log(process.env.REACT_APP_API_KEY);
+
   return (
     <React.Fragment>
       <Route exact path='/' render={() => {
